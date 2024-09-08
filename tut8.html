@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+             <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role:</label>
+    <div>
+        <input type="text" id="role" name="myRole">
+    </div>
+    <br>
+    <label for="email">Role:</label>
+    <div>
+        <input type="email" id="email" name="myEmail">
+    </div>
+    <br>
+    <br>
+    <label for="date">Date:</label>
+    <div>
+        <input type="date" id="date" name="myDate" >
+    </div>
+    <br>
+    <label for="bonus">Bonus:</label>
+    <div>
+         <input type="number" name="myBonus" id="bonus">
+    </div>
+    <br>
+    <label for="eligible">Are you eligible?:</label>
+    <div>
+        <input type="checkbox" name="myEligibility" id="eligible" checked>
+    </div>
+    <br>
+    <div>
+        Gender: Male <input type="radio" name="myGender" > Female <input type="radio" name="myGender" >
+        Other: <input type="radio" name="myGender" >
+    </div>
+    <br>
+    <div>
+      Write about yourself: <br><textarea name="myText"  cols="60" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+    <label for="car">Car:</label>
+    <select name="myCar" id="car">
+        <option value="Ind">Indica</option>
+        <option value="swf">Siwft</option>
+        <option value="thar"selected>THAR</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+         <input type="reset" value="Reset Now">
+    </div>
+</form>
+</body>
+</html>
